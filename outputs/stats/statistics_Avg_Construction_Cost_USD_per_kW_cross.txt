@@ -1,0 +1,8 @@
+Groupe_1	Groupe_2	Variable	available_dates	N_Obs	Mean	Median	SD	P1	P50	P99
+major_energy_source	Battery storage	Avg_Construction_Cost_USD_per_kW	2018-01 to 2023-12	72	1555.33	1300	707.78	758	1300	2973
+major_energy_source	Biomass	Avg_Construction_Cost_USD_per_kW	2019-01 to 2021-12	36	2794	2886	145.05	2592	2886	2904
+major_energy_source	Hydro	Avg_Construction_Cost_USD_per_kW	2020-01 to 2020-12	12	1415	1415	0	1415	1415	1415
+major_energy_source	Natural gas	Avg_Construction_Cost_USD_per_kW	2018-01 to 2023-12	72	925.5	878.5	129.44	782	878.5	1116
+major_energy_source	Petroleum liquids	Avg_Construction_Cost_USD_per_kW	2018-01 to 2023-12	72	1129.83	1027.5	463.28	687	1027.5	2084
+major_energy_source	Solar	Avg_Construction_Cost_USD_per_kW	2018-01 to 2023-12	72	1677.5	1636	107.88	1561	1636	1848
+major_energy_source	Wind	Avg_Construction_Cost_USD_per_kW	2018-01 to 2023-12	72	1481.33	1439.5	121.92	1382	1439.5	1738

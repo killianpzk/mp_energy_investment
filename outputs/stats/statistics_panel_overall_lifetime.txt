@@ -1,0 +1,2 @@
+Variable	available_dates	N_Obs	Mean	Median	SD	P1	P50	P99
+lifetime	1970-01 to 2023-12	22712	46.77	27	75.42	1	27	298
