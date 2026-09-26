@@ -1,0 +1,72 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,queue_number,str23,0,%23s,,Queue number
+2,study,str9,0,%9s,,Study
+3,issue_date,float,1,%tm,,Date this engineering study was issued to the project
+4,state,str3,0,%9s,,State
+5,county,str22,0,%22s,,County
+6,transmission_owner,str15,0,%15s,,Transmission Owner
+7,mfo,double,1,%10.0g,,MFO (collected from study)
+8,energy_mw,double,1,%10.0g,,MW Energy (collected from study)
+9,capacity_mw,double,1,%10.0g,,MW Capacity (collected from study)
+10,total_cost,double,1,%10.0g,,Total cost the project is responsible for (in million dollars)
+11,poi_cost,double,1,%10.0g,,POI cost (sum of Direct/Non-Direct/Attachment Costs (in million dollars)
+12,network_upgrade_cost,double,1,%10.0g,,Network upgrade cost allocated to the project (in million dollars)
+13,combined_cost,double,1,%10.0g,,Cost the project may receive allocation from (in million dollars)
+14,direct_cost,double,1,%10.0g,,Direct Interconnection Cost (in million dollars)
+15,nondirect_cost,double,1,%10.0g,,Non-Direct Interconnection Cost (in million dollars)
+16,attachment_cost,double,1,%10.0g,,Attachment Cost (in million dollars)
+17,newsystem_upgrade_cost,double,1,%10.0g,,New System Upgrade Cost (in million dollars)
+18,prevsystem_upgrade_cost,double,1,%10.0g,,Previously Identified System Upgrade Cos (in million dollars)
+19,cost_share_group,str791,0,%791s,,Generators in the same network upgrade cost-sharing group as the focal generator
+20,substation,str69,0,%69s,,POI substation (collected from study)
+21,line,str89,0,%89s,,POI line (collected from study)
+22,poi_substation,str73,0,%73s,,POI substation a project is interconnecting to
+23,voltage,float,1,%9.0g,,Voltage of the POI that the project is interconnecting to
+24,tapline,float,1,%9.0g,,Indicator for interconnection to a line
+25,substation_id1,float,1,%9.0g,,ID of the first matched POI substation
+26,substation_id2,float,1,%9.0g,,ID of the second matched POI substation (if any)
+27,substation_id3,float,1,%9.0g,,ID of the third matched POI substation (if any)
+28,substation_id4,float,1,%9.0g,,ID of the fourth matched POI substation (if any)
+29,matched_substation1,str36,0,%36s,,First matched POI substation
+30,matched_substation2,str36,0,%36s,,Secibd matched POI substation
+31,matched_substation3,str36,0,%36s,,Third matched POI substation
+32,matched_substation4,str36,0,%36s,,Fourth matched POI substation
+33,dist_matched_substation1,double,1,%10.0g,,Distance to the first matched POI substation (km)
+34,dist_matched_substation2,double,1,%10.0g,,Distance to the second matched POI substation (km)
+35,dist_matched_substation3,double,1,%10.0g,,Distance to the third matched POI substation (km)
+36,dist_matched_substation4,double,1,%10.0g,,Distance to the fourth matched POI substation (km)
+37,min_dist_to_matched_substation,double,1,%9.0g,,Distance to the nearest matched POI substation (km)
+38,nearest_matched_substation_id,float,1,%9.0g,,ID of the nearest matched POI substation
+39,dist_poi1,float,1,%9.0g,,"Distance to the first POI (km), subtation or line"
+40,dist_poi2,float,1,%9.0g,,"Distance to the second POI (km), subtation or line"
+41,dist_poi3,float,1,%9.0g,,"Distance to the third POI (km), subtation or line"
+42,dist_poi4,float,1,%9.0g,,"Distance to the fourth POI (km), subtation or line"
+43,min_dist_to_poi,float,1,%9.0g,,"Distance to the nearest POI (km), subtation or line"
+44,nearest_substation,str43,0,%43s,,Nearest substation to the project (not necessarily POI)
+45,dist_nearest_substation,double,1,%10.0g,,Distance to the nearest substation to the project (not necessarily POI) (km)
+46,developer,str85,0,%85s,,Developer of the project
+47,version,str2,0,%9s,,Version of the study
+48,uprate,float,1,%9.0g,,Indicator if the project is an uprate
+49,uprate_to,str43,0,%43s,,Queue number of the original generator that the request is an uprate to if avail
+50,generator_deliverability,str4,0,%9s,,Indicator of Engineering Test - Generator Deliverability
+51,multiple_facility_contingency,str4,0,%9s,,Indicator of Engineering Test - Multiple Facility Contingency
+52,contrib_to_prev_identifi,str4,0,%9s,,Indicator of Engineering Test - Contribution to Previously Identified Overload
+53,newsystem_reinforcement,str4,0,%9s,,Indicator of Engineering Test - Contribution to New System Reinforcement
+54,prevsystem_reinforcement,str4,0,%9s,,Indicator of Engineering Test - Contribution to Previously Identified System Rei
+55,short_circuit,str4,0,%9s,,Indicator of Engineering Test - Short Circuit analysis
+56,system_protection_analysis,str4,0,%9s,,Indicator of Engineering Test - System Protection analysis
+57,short_circuit_dynamic_analysis,str4,0,%9s,,Indicator of Engineering Test - Short Circuit and Dynamic Analysis
+58,new_substation,str4,0,%9s,,Indicator for constructing a new substation
+59,new_circuit_breaker,str4,0,%9s,,Indicator for constructing a new circuit breaker
+60,prev_cost_sub,float,1,%9.0g,,Cost of previous completed project at the same substation (in million dollars)
+61,prev_size_sub,float,1,%9.0g,,Size(MW) of previous completed project at the same substation
+62,prev_cost_10km,float,1,%9.0g,,Cost of previous completed project within 10km radius (in million dollars)
+63,prev_size_10km,float,1,%9.0g,,Size(MW) of previous completed project within 10km radius
+64,prev_cost_20km,float,1,%9.0g,,Cost of previous completed project within 20km radius (in million dollars)
+65,prev_size_20km,float,1,%9.0g,,Size(MW) of previous completed project within 20km radius
+66,prev_cost_50km,float,1,%9.0g,,Cost of previous completed project within 50km radius (in million dollars)
+67,prev_size_50km,float,1,%9.0g,,Size(MW) of previous completed project within 50km radius
+68,prev_cost_sub10km,float,1,%9.0g,,Cost of previous completed project within 10km radius and at the same substation
+69,prev_size_sub10km,float,1,%9.0g,,Size(MW) of previous completed project within 10km radius and at the same substa
+70,lon_queue_noise,float,1,%9.0g,,"The longitude of the project, perturbed by a small random noise to preserve conf"
+71,lat_queue_noise,float,1,%9.0g,,"The latitude of the project, perturbed by a small random noise to preserve confi"
