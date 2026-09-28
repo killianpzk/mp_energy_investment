@@ -23,6 +23,7 @@ Unexpected monetary policy shocks pose a substantial risk to capital-intensive i
 
 *Note: This project is currently under Review.*
 
+```text
 ├── cleaned_data/        # Cleaned data stored as .rds files
 ├── code/                # Econometric models and empirical analysis
 │   ├── regressions/     # Model specifications estimated in the thesis
