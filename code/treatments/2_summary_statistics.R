@@ -9,7 +9,8 @@ clean_path <- 'cleaned_data'
 
 ### Imports --------------------------------------------------------------------
 
-source(here::here('code','dependencies.R'))
+code_path <- 'code'
+source(here::here(code_path, 'dependencies.R'))
 
 #### Data ----------------------------------------------------------------------
 

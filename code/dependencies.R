@@ -1,22 +1,32 @@
-library(haven)
-library(dplyr)
-library(tidyr)
-library(tidylog)
-library(stringr)
-library(fastDummies)
-library(readxl)
-library(lubridate)
-library(tseries)
-library(readr)
-library(arrow)
-library(janitor)
-library(fredr)
-library(here)
-library(fixest)
-library(ggplot2)
-library(xtable)
-library(ggpattern)
-library(purrr)
-library(corrplot)
+packages <- c(
+  "arrow",
+  "corrplot",
+  "dplyr",
+  "fastDummies",
+  "fixest",
+  "fredr",
+  "ggplot2",
+  "ggpattern",
+  "haven",
+  "here",
+  "janitor",
+  "lubridate",
+  "purrr",
+  "readr",
+  "readxl",
+  "stringr",
+  "tidylog",
+  "tidyr",
+  "tseries",
+  "xtable"
+)
+
+missing_pkgs <- packages[!(packages %in% installed.packages()[, "Package"])]
+
+if (length(missing_pkgs) > 0) {
+  install.packages(missing_pkgs)
+}
+
+invisible(lapply(packages, library, character.only = TRUE))
 
 fredr_set_key("c5db2a2e4c6bd887a47320bb788d8c54") 
