@@ -23,4 +23,17 @@ Unexpected monetary policy shocks pose a substantial risk to capital-intensive i
 
 *Note: This project is currently under Review.*
 
-⚠️ Please run the **build_panel_all** file to initialize the panels (too heavy fot GH).
+├── cleaned_data/        # Cleaned data stored as .rds files
+├── code/                # Econometric models and empirical analysis
+│   ├── regressions/     # Model specifications estimated in the thesis
+│   └── treatments/      # Data cleaning and variable preparation scripts
+├── outputs/             # Generated figures and tables
+│   ├── robustness/      # Robustness checks
+│   ├── section1/        # Outputs corresponding to Section 1
+│   ├── section2/        # Outputs corresponding to Section 2
+│   ├── section3/        # Outputs corresponding to Section 3
+│   └── stats/           # Summary statistics
+├── raw_data/            # Original, unmodified datasets
+├── .gitignore           # Ignores large data files and R workspace cache
+├── README.md            # Repository documentation and replication guide
+└── project.Rproj        # RStudio project file
